@@ -38,7 +38,7 @@ body {
 }
 body {
     display: flex;
-    font: 16px/1.5 system-ui;
+    font: 15px/1.5 system-ui;
     word-break: break-word;
     tab-size: 4;
 }
@@ -236,6 +236,10 @@ body {
     html,
     body {
         height: auto;
+    }
+
+    body {
+        font-family: serif;
     }
 
     .editor {
